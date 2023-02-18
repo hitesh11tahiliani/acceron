@@ -1,6 +1,7 @@
 import React from 'react'
 import '../Styles/Footer.css'
 import Quotation from './Quotation';
+import { NavLink } from 'react-router-dom';
 
 function Footer() {
   return (
@@ -8,27 +9,24 @@ function Footer() {
     <div className='footer'>
         <div className='footer_flex'>
         <div className='left_column_footer'>
-            <h1>ACCERON</h1>
-            <h3>Home</h3>
-            <h3>Products</h3>
-            <h3>About</h3>
-            <h3>Get Quotation</h3>
+            <h3 className='acceron_footer'>ACCERON</h3>
+            <h3 className='pages_footer'>Home</h3>
+            <h3 className='pages_footer'>Products</h3>
+            <h3 className='pages_footer'>About</h3>
+            <h3 className='pages_footer'>Get Quotation</h3>
         </div>
         <div className='right_column_footer'>
-            <h2>Head Office</h2>
-            <p className='footer_info'>Address : Xyz appartment near birla road
-            Hyderabad, Telangana <br/>Contact : 8093586475, 9829374028</p>
-            <h2>Production Facilitie</h2>
-            <p className='footer_info'>Address : Xyz appartment near birla road
-            Hyderabad, Telangana <br/>Contact : 8093586475, 9829374028</p>
-            <h2>Production Facilitie</h2>
-            <p className='footer_info'>Address : Xyz appartment near birla road
-            Hyderabad, Telangana <br/>Contact : 8093586475, 9829374028</p>
+            <h2 className='footer_sub_heading'>Head Office</h2>
+            <p className='footer_info'>Address : 22-5-326, FB LANE, CHARMINAR EAST, HYDERABAD, Telangana 500002 </p>
+            <h2 className='footer_sub_heading'>Production Facilitie</h2>
+            <p className='footer_info'>Address : 22-5-326, FB LANE, CHARMINAR EAST, HYDERABAD, Telangana 500002 </p>
+            <h2 className='footer_sub_heading'>Production Facilitie</h2>
+            <p className='footer_info'>Address : 16, SAKET INDUSTRIAL ESTATE, CHANGODAR, AHMEDABAD, GUJARAT 382213 </p>
         </div>
         </div>
 
         <div className='copyright'></div>
-        <span>Copyrights reserved © 2023 | Acceron India Pvt Ltd.</span>
+        <span className='copyright_footer'>Copyrights reserved © 2023 | Acceron India Pvt Ltd.</span>
     </div>
     </>
   )

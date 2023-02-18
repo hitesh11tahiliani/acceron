@@ -44,10 +44,13 @@
     /* border: 2px solid black; */
     margin: 7.5% 0% 0% 30%;
     height: 40%;
-    width: 110%;
+    width: 650px;
+}
+.image_tagline{
+    /* width: 100%; */
 }
 
-.home_carousel{
+/* .home_carousel{
     border: 2px solid black;
     width: 200px;
     height: 200px;
@@ -63,7 +66,7 @@
     width: 300px;
     height: 300px;
     margin-right: 100px;
-}
+} */
 
 .reach{
     display: flex;
@@ -363,3 +366,166 @@
     margin: 1rem;
     margin-right: 30px ;
 }
+
+@media (max-width: 1280px){
+    .company_tagline img{
+        margin: 9% 0% 0% 30%;
+        height: 40%;
+        width: 550px;
+    }
+    .column-right{
+        width: 70%;
+    }
+
+    .card{
+        width: 45%;
+    }
+}
+
+@media (max-width: 1180px){
+    .company_tagline img{
+        margin: 9% 0% 0% 30%;
+        height: 40%;
+        width: 450px;
+    }
+    .reach_sub_info{
+        font-size: 1.25rem;
+    }
+
+    .reviews{
+        height: 800px;
+    }
+    
+    .container_reviews{
+        height: 700px;
+    }
+    .card{
+        height: 450px;
+    }
+}
+
+@media (max-width: 1000px){
+    .company_tagline img{
+        margin: 9% 0% 0% 18%;
+        height: 40%;
+        width: 450px;
+    }
+
+    .column-right{
+        width: 70%;
+    }
+
+    .card{
+        width: 45%;
+        height: 500px;
+    }
+}
+
+@media (max-width: 940px){
+    .company_tagline img{
+        margin: 9% 0% 0% 18%;
+        height: 45%;
+        width: 400px;
+    }
+}
+
+@media (max-width: 870px){
+    .company_tagline img{
+        display: none;
+    }
+}
+
+
+
+@media (max-width: 460px){
+
+    .home_screen1{
+        margin-top: 25px;
+    }
+
+    .banner{
+        margin-left: 5%;
+        max-width: 90%;
+        height: 100%;
+        border-radius: 10px;
+        margin-top: 20px;
+    }
+
+    .company_tagline{
+        display: none;
+    }
+
+    .reach{
+        flex-direction: column;
+        height: 200px;
+    }
+
+    .reach_info{
+        width: 80%;
+        height: 45px;
+    }
+
+    /* automotive lubricant */
+
+    .automotive_lubricant{
+        height: 380px;
+    }
+
+    .content_lubricant{
+        margin-top: 20px;
+        width: 80%;
+    }
+
+    .automotive_description{
+        margin-top: 15px;
+    }
+
+    .btn_product_range{
+        margin-top: 25px;
+        margin-right: 10px;
+    }
+
+    .vision_n_values{
+        flex-direction: column;
+        height: 1000px;
+    }
+    .vision{
+        width: 90%;
+    }
+    .values{
+        width: 90%;
+        margin-top: 0;
+    }
+    .vision_box{
+        height: 200px;
+        margin-top: 30px;
+        width: 90%;
+        margin-left: 10%;
+    }
+    /* testimonial */
+    .reviews{
+        height: 1250px;
+    }
+    .left-text{
+        font-size: 1.5rem;
+    }
+    
+    .container_reviews{
+        height: 1100px;
+        flex-direction: column;
+    }
+    .left-column{
+        width: 90%;
+    }
+    .column-right{
+        flex-direction: column;
+        width: 90%;
+        margin-left: 10%;
+    }
+    .card{
+        width: 90%;
+        height: 400px;
+        margin-bottom: 50px;
+    }
+}
+

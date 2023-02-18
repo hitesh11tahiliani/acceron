@@ -1,7 +1,7 @@
 import React from 'react'
 import '../Styles/Navbar.css'
 import Logo from "../Assets/logo.png"
-import { Link, NavLink } from 'react-router-dom'
+import { Link } from 'react-router-dom'
 
 function Navbar() {
   return (
@@ -14,7 +14,7 @@ function Navbar() {
                 <Link className='page' to='/' >Home</Link>
                 <Link className='page' to='/products' >Products</Link>
                 <Link className='page' to='/about' >About</Link>
-                <Link className='page' to='/quotation' >Get Quotation</Link>
+                <Link className='page' to='/quotation' >Quotation</Link>
             </div>
       </div>
     </div>

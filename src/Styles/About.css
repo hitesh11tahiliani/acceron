@@ -65,7 +65,7 @@
     color: #FBCA8D;
     /* color: white; */
     margin-left: 25px;
-    margin-top: 150px;
+    margin-top: 175px;
     font-family: 'Roboto', sans-serif;
     line-height: 1.4rem;
 }
@@ -92,10 +92,56 @@ u{
     color: #FBCA8D;
     /* color: white; */
     margin-left: 25px;
-    margin-top: 100px;
+    margin-top: 135px;
     font-family: 'Roboto', sans-serif;
     line-height: 1.4rem;
 }
-span{
+.production_facilites_card{
     display: flex;
+}
+
+
+@media (max-width: 480px){
+    .component_office{
+        flex-direction: column;
+        width: 90%;
+        height: 400px;
+        margin-bottom: 0;
+    }
+    .image_office{
+        width: 100%;
+    }
+    .office_info{
+        color: #FBCA8D;
+        /* color: white; */
+        /* margin-left: 25px; */
+        margin-top: 20px;
+        margin-bottom: 20px;
+        font-family: 'Roboto', sans-serif;
+        line-height: 1.4rem;
+    }
+    .production_facilites_card{
+        flex-direction: column;
+    }
+    .production_image{
+        width: 90%;
+        flex-direction: column;
+    }
+    .image_production{
+        width: 100%;
+    }
+    .faculty_info{
+        margin-top: 25px;
+        margin-bottom: 25px;
+    }
+    .slide_one{
+        margin: 30px auto;
+        height: 400px;
+        width: 300px;
+        box-shadow: rgba(0, 0, 0, 0.5) 0px 3px 8px;
+        background-color: #f0efef ;
+    }
+    .image_ceo{
+        height: 80%;
+    }
 }

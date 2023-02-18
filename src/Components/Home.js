@@ -2,7 +2,6 @@ import React from 'react'
 import '../Styles/Home.css'
 import Banner from "../Assets/banner1.png"
 import User1 from "../Assets/USER1.png"
-// import User2 from "../Assets/USER2.png"
 import User3 from "../Assets/USER3.png"
 import tagline from "../Assets/acceron_branding.png"
 import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
@@ -26,7 +25,9 @@ function Home() {
           </div>
 
           <div className='company_tagline'>
-            <img src={tagline} alt="tagline" />
+            <img className='image_tagline' src={tagline} alt="tagline" />
+
+            
             
             {/* <div className="home_carousel ">
               <Carousel autoPlay infiniteLoop interval={2500} showStatus={false} showThumbs={false} showArrows={false}>

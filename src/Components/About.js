@@ -6,7 +6,8 @@ import Manager from '../Assets/senior_general_manager.png';
 import Ceo from '../Assets/ceo.png';
 import Director from '../Assets/director.png';
 import Office from '../Assets/office.png';
-
+import ProductionOne from '../Assets/production1.png';
+import ProductionTwo from '../Assets/production2.png';
 
 
 function About() {
@@ -19,8 +20,7 @@ function About() {
         <div className='heading_underline'></div>
         <div className='component_office'>
           <img className='image_office' src={Office} alt="office"></img>
-          <div className='office_info'><u>Address</u> : Xyz appartment near birla road<br/>
-          Hyderabad, Telangana <br/> <br/><u>Contact</u> : 8093586475, 9829374028</div>
+          <div className='office_info'><u>Address</u> : 22-5-326, FB LANE, CHARMINAR EAST, HYDERABAD, 500002 <br/> </div>
         </div> 
       </div>
     </div>
@@ -29,16 +29,14 @@ function About() {
       <div className='production_facilites'>
         <div className='about_heading'>Production Facilities</div>
         <div className='heading_underline'></div>
-        <span>
+        <span className='production_facilites_card' >
           <div className='production_image'>
-            <img className='image_production' src={Office} alt="office"></img>
-            <div className='faculty_info'><u>Address</u> : Xyz appartment near birla road<br/>
-            Hyderabad, Telangana <br/> <br/><u>Contact</u> : 8093586475, 9829374028</div>
+            <img className='image_production' src={ProductionOne} alt="office"></img>
+            <div className='faculty_info'><u>Address</u> : 22-5-326, FB LANE, CHARMINAR EAST, HYDERABAD, 500002</div>
           </div> 
           <div className='production_image'>
-            <img className='image_production' src={Office} alt="office"></img>
-            <div className='faculty_info'><u>Address</u> : Xyz appartment near birla road<br/>
-            Hyderabad, Telangana <br/> <br/><u>Contact</u> : 8093586475, 9829374028</div>
+            <img className='image_production' src={ProductionTwo} alt="office"></img>
+            <div className='faculty_info'><u>Address</u> : 16, SAKET INDUSTRIAL ESTATE, CHANGODAR, AHMEDABAD, 382213</div>
           </div>
         </span>
          
