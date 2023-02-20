@@ -79,7 +79,7 @@ function Home() {
             product is designed to enhance performance, reliability 
             and longevity for your use. </div>
         </div>
-        <button className='btn_product_range'><p className='btn_text_product_range' >Product Range</p></button>
+        <a href="/products"> <button className='btn_product_range'><p className='btn_text_product_range' >Product Range</p></button></a>
       </div>
 
     {/* Vision and values */}

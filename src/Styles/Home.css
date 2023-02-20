@@ -31,13 +31,15 @@
 .poster{
     /* border: 2px solid red; */
     height: 80%;
+    width: 20%;
     /* border-radius: 2px; */
 }
 .banner{
     /* border: 2px solid black; */
     height: 100%;
     border-radius: 10px;
-    margin: 10% 0% 0% 20% ;
+    margin: 10% 0% 0% 20%;
+    width: 100%;
 }
 
 .company_tagline img{
@@ -46,9 +48,9 @@
     height: 40%;
     width: 650px;
 }
-.image_tagline{
-    /* width: 100%; */
-}
+/* .image_tagline{
+    
+} */
 
 /* .home_carousel{
     border: 2px solid black;
@@ -103,11 +105,11 @@
     background-color: #FBCA8D;
     margin-top: 100px;
     width: 100wh;
-    height: 250px;
+    height: 270px;
     border-radius: 5px;
 }
 .content_lubricant{
-    width: 50%;
+    width: 60%;
     margin: 2% 0% 0% 5%;
 }
 .heading_automotive_lubricant{
@@ -121,6 +123,7 @@
     width: 35%;
 }
 .automotive_description{
+    font-size: 1.25rem;
     margin-top: 2%;
     font-family: 'Roboto', sans-serif;
     font-weight: 600;
@@ -368,6 +371,12 @@
 }
 
 @media (max-width: 1280px){
+    .poster{
+        border: 2px solid red;
+        height: 80%;
+        width: 30%;
+        /* border-radius: 2px; */
+    }
     .company_tagline img{
         margin: 9% 0% 0% 30%;
         height: 40%;
@@ -383,6 +392,31 @@
 }
 
 @media (max-width: 1180px){
+
+    .poster{
+        border: 2px solid red;
+        height: 80%;
+        width: 30%;
+        /* border-radius: 2px; */
+    }
+    .values_content{
+        /* border: 2px solid pink;/ */
+        display: flex;
+        flex-direction: column ;
+        justify-content: space-evenly;
+        color: white;
+        height: 80%;
+        font-family: 'Roboto', sans-serif;
+        font-size: 1rem;
+        font-weight: 400;
+        margin-top: 10px;
+    }
+    .subheading_values{
+        font-size: 1.25rem;
+        font-weight: 600 ;
+        font-family: 'Roboto', sans-serif;
+        margin-bottom: 5px;
+    }
     .company_tagline img{
         margin: 9% 0% 0% 30%;
         height: 40%;
@@ -405,6 +439,11 @@
 }
 
 @media (max-width: 1000px){
+    .automotive_lubricant{
+        width: 100wh;
+        height: 300px;
+        border-radius: 5px;
+    }
     .company_tagline img{
         margin: 9% 0% 0% 18%;
         height: 40%;
@@ -443,9 +482,16 @@
         margin-top: 25px;
     }
 
+    .poster{
+        border: 2px solid red;
+        height: 80%;
+        width: 90%;
+        /* border-radius: 2px; */
+    }
+
     .banner{
         margin-left: 5%;
-        max-width: 90%;
+        max-width: 100%;
         height: 100%;
         border-radius: 10px;
         margin-top: 20px;
@@ -468,7 +514,7 @@
     /* automotive lubricant */
 
     .automotive_lubricant{
-        height: 380px;
+        height: 480px;
     }
 
     .content_lubricant{
@@ -478,6 +524,7 @@
 
     .automotive_description{
         margin-top: 15px;
+        /* font-size: 1rem; */
     }
 
     .btn_product_range{

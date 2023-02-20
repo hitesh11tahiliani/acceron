@@ -61,11 +61,32 @@
     width: 70%;
     border-radius: 5px;
 }
+.heading_address_office{
+    color: #FBCA8D;
+    /* color: white; */
+    margin-left: 25px;
+    /* margin-top: 175px; */
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 600;
+    line-height: 2rem;
+    margin-top: 115px;
+}
+.heading_corporate_office{
+    color: #FBCA8D;
+    /* color: white; */
+    margin-left: 25px;
+    /* margin-top: 175px; */
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 600;
+    line-height: 2rem;
+    margin-top: 15px;
+}
 .office_info{
     color: #FBCA8D;
     /* color: white; */
     margin-left: 25px;
-    margin-top: 175px;
     font-family: 'Roboto', sans-serif;
     line-height: 1.4rem;
 }
@@ -105,20 +126,20 @@ u{
     .component_office{
         flex-direction: column;
         width: 90%;
-        height: 400px;
+        height: 600px;
         margin-bottom: 0;
     }
     .image_office{
         width: 100%;
     }
+    .heading_address_office{
+        margin-top: 10px;
+    }
     .office_info{
         color: #FBCA8D;
-        /* color: white; */
-        /* margin-left: 25px; */
-        margin-top: 20px;
-        margin-bottom: 20px;
+        /* margin-top: 20px; */
+        /* margin-bottom: 20px; */
         font-family: 'Roboto', sans-serif;
-        line-height: 1.4rem;
     }
     .production_facilites_card{
         flex-direction: column;
@@ -131,8 +152,9 @@ u{
         width: 100%;
     }
     .faculty_info{
-        margin-top: 25px;
+        margin-top: 20px;
         margin-bottom: 25px;
+        margin-left: 15px;
     }
     .slide_one{
         margin: 30px auto;

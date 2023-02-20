@@ -28,9 +28,9 @@ import { ProductList } from './ProductList';
 function Products() {
   return (
     <>
-    <div >
+    {/* <div >
       <img className='banner_product' src={banner} alt="banner"></img>
-    </div>
+    </div> */}
     
       <div className="menuList menu">
           {ProductList.map((productItem, key) => {

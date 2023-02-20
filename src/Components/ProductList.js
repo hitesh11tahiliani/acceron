@@ -130,13 +130,13 @@ export const ProductList = [
     name: "CONC COOLANT",
     image: onel_conc_cool,
     capacity: "1 L",
-    price: 250,
+    price: 300,
   },
   {
     name: "RM COOLANT",
     image: onel_rm_cool,
     capacity: "1 L",
-    price: 190,
+    price: 250,
   },
   {
     name: "CONC COOLANT",
@@ -154,7 +154,7 @@ export const ProductList = [
     name: "CH4 20W40",
     image: onel_20w40,
     capacity: "1 L",
-    price: 410,
+    price: 450,
   },
   {
     name: "CH4 10W30",

@@ -56,7 +56,7 @@ function Quotation() {
             <label className='label'>
               Email
             </label>
-            <input className='input' type='text'  type='text' placeholder='Your Email' name='reply_to' value={toSend.reply_to} onChange={handleChange}/>
+            <input className='input' type='text'  placeholder='Your Email' name='reply_to' value={toSend.reply_to} onChange={handleChange}/>
           </div>
 
         </div>

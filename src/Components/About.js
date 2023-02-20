@@ -20,7 +20,12 @@ function About() {
         <div className='heading_underline'></div>
         <div className='component_office'>
           <img className='image_office' src={Office} alt="office"></img>
-          <div className='office_info'><u>Address</u> : 22-5-326, FB LANE, CHARMINAR EAST, HYDERABAD, 500002 <br/> </div>
+          <div>
+            <div className='heading_address_office'>Main Office</div>
+            <div className='office_info'><u>Address</u> : 22-5-326, FB LANE, CHARMINAR EAST, HYDERABAD, 500002 <br/> </div>
+            <div className='heading_corporate_office'>Corporate Office</div>
+            <div className='office_info'><u>Address</u> : 63/A, INDUSTRIAL AREA, ROAD NO - 8, GOVINDPURA, BHOPAL, 462023 <br/> </div>
+          </div>
         </div> 
       </div>
     </div>
@@ -50,15 +55,15 @@ function About() {
         <Carousel autoPlay infiniteLoop interval={2500} showStatus={false} showThumbs={false} showArrows={false} >
           <div className='slide_one'>
             <img className='image_ceo' src={Ceo} alt="Ceo"></img>
-            <p className='designation'>Mr. Ashish Mathur<br/> CEO Acceron India Pvt. Ltd. </p>
+            <p className='designation'>Mr. Ashish Mathur<br/> CEO </p>
           </div>
           <div className='slide_one'>
             <img src={Director} alt="Leadership"></img>
-            <p className='designation'>Mr. Rajneesh Yadav <br/> Director Acceron India Pvt. Ltd. </p>
+            <p className='designation'>Mr. Rajneesh Yadav <br/> Director </p>
           </div>
           <div className='slide_one'>
             <img src={Manager} alt="Leadership"></img>
-            <p className='designation'>Mr. Rahul Kaushik <br/> Senior General Manager Acceron India Pvt. Ltd. </p>
+            <p className='designation'>Mr. Rahul Kaushik <br/> Senior General Manager </p>
           </div>
           
         </Carousel>
