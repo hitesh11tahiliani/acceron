@@ -55,7 +55,7 @@ function Home() {
 
           <div className='reach_info'>
             <p className="reach_sub_info">
-            100+ Distributors
+            100+ Channel Partners
             </p>
           </div>
 
@@ -165,11 +165,11 @@ function Home() {
           <div className='card'>
             <div className='user'>
               <div className='user-photo'><img className='img-user' src={User3} alt="User"/> </div>
-              <div className='user-name'>Rishi Jain</div>
+              <div className='user-name'>Mr. Ashish Pande</div>
             </div>
             <div className='review-text'>"I have been using this engine oil for the past few months and my car runs smoother and more efficiently. The extended drain interval saves me time and money. I am extremely satisfied with this product and would highly recommend it to anyone looking for a reliable and effective engine oil."</div>
-            <div className='position'><i>Cheif Analyst<br/>Micro Tech Solutions </i></div>
-          </div>
+            <div className='position'><i>Chairperson, MP<br/>FADA </i></div>
+          </div>  
         </div>
 
       </div>

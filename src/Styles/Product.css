@@ -5,8 +5,7 @@
 }
 
 
-
-.menu {
+.product {
   /* border: 2px solid black; */
   width: 92%;
   height: auto;
@@ -22,7 +21,7 @@
 }
 
 
-.menuList {
+.productList {
   /* margin-left: 100px;
   width: 70vw;
   height: auto;
@@ -35,7 +34,7 @@
 
 .menuItem {
   /* border: 2px solid red; */
-  border-radius: 15px;
+  border-radius: 10px;
   width: 300px;
   height: 400px;
   margin: 20px;

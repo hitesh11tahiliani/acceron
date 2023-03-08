@@ -44,6 +44,7 @@
     font-size: 1.25rem;
     margin-top: 25px;
     font-family: 'Roboto', sans-serif;
+    text-decoration: none;
 }
 
 .footer_sub_heading{
@@ -69,22 +70,22 @@
 
 .copyright{
     margin-top: 75px;
-    border: 1px solid #ED8524;
-    
+    border-top: 1px solid #ED8524;
+    display:flex ;
 }
 
 .copyright_footer{
     color: #ED8524;
     font-family: 'Roboto', sans-serif;
-    margin-left: 38% ;
+    /* margin-left: 38% ; */
+    margin: auto;
 }
 
 @media (max-width: 1080px) {
     .copyright_footer{
         color: #ED8524;
         font-family: 'Roboto', sans-serif;
-        margin-left: 30% ;
-        margin-top: 5px;  
+        margin-top: 7px;  
     }
     
 }
@@ -94,10 +95,7 @@
         display: none;
     }
     .copyright_footer{
-        text-align: center;
-        margin-left: 8px;
         margin-top: 15px;
-        /* font-size: 0.75rem; */
     }
 }
 

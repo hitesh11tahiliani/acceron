@@ -22,13 +22,14 @@ function Footer() {
             <p className='footer_info'>Address : 63/A, INDUSTRIAL AREA, ROAD NO - 8, GOVINDPURA, BHOPAL 462023</p>
             <h2 className='footer_sub_heading'>Production Facility - 1</h2>
             <p className='footer_info'>Address : 22-5-326, FB LANE, CHARMINAR EAST, HYDERABAD, 500002 </p>
-            <h2 className='footer_sub_heading'>Production Facility - 2</h2>
+            <h2 className='footer_sub_heading'>Production Facility - 2<h6>(Under License by Acceron)</h6></h2>
             <p className='footer_info'>Address : 16, SAKET INDUSTRIAL ESTATE, CHANGODAR, AHMEDABAD, 382213 </p>
         </div>
         </div>
 
-        <div className='copyright'></div>
-        <span className='copyright_footer'>Copyrights © 2023 | Acceron Industries India Pvt Ltd.</span>
+        <div className='copyright'>
+          <span className='copyright_footer'>Copyrights © 2023 | Acceron Industries India Pvt Ltd.</span>
+        </div>
     </div>
     </>
   )

@@ -21,6 +21,7 @@ import syn from '../Assets/15w50_syn.png';
 import fork_oil from '../Assets/fork_oil.png';
 import lg_greace from '../Assets/lg_greace.png';
 import sm_greace from '../Assets/sm_greace.png';
+import acceron_drum from '../Assets/acceron_drum.png';
 
 
 export const ProductList = [
@@ -161,5 +162,11 @@ export const ProductList = [
     image:onel_10w30,
     capacity: "1 L",
     price: 450,
+  },
+  {
+    name: "ACCERON 210 LTR PACK",
+    image:acceron_drum,
+    capacity: "210 L",
+    // price: --,
   },
 ];
