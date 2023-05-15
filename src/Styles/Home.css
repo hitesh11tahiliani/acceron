@@ -20,25 +20,35 @@
 
 .landing_screen{
     display: flex;
+    flex-direction: column;
+    align-items: center;
     /* border: 3px solid violet; */
     background-color: #F7EFE5;
     width: 90%;
-    height: 70vh;
+    height: 80vh;
     margin: 0 auto ;
     border-radius: 10px;
 }
 
 .poster{
+    margin-top: 2%;
+    display: flex;
+    align-items: center;
     /* border: 2px solid red; */
-    height: 80%;
-    width: 20%;
+    height: 85%;
+    width: 95%;
     /* border-radius: 2px; */
 }
+
+.posterLongitude{
+    display: none;
+}
+
 .banner{
     /* border: 2px solid black; */
     height: 100%;
     border-radius: 10px;
-    margin: 10% 0% 0% 20%;
+    /* margin: 10% 0% 0% 20%; */
     width: 100%;
 }
 
@@ -371,12 +381,10 @@
 }
 
 @media (max-width: 1280px){
-    .poster{
-        /* border: 2px solid red; */
+    /* .poster{
         height: 80%;
         width: 30%;
-        /* border-radius: 2px; */
-    }
+    } */
     .company_tagline img{
         margin: 9% 0% 0% 30%;
         height: 40%;
@@ -393,12 +401,10 @@
 
 @media (max-width: 1180px){
 
-    .poster{
-        /* border: 2px solid red; */
+    /* .poster{
         height: 80%;
         width: 30%;
-        /* border-radius: 2px; */
-    }
+    } */
     .values_content{
         /* border: 2px solid pink;/ */
         display: flex;
@@ -476,17 +482,22 @@
 
 
 
-@media (max-width: 460px){
+@media (max-width: 480px){
 
     .home_screen1{
         margin-top: 25px;
     }
 
     .poster{
-        /* border: 2px solid red; */
-        height: 80%;
+         display: none;
+    }
+
+    .posterLongitude{
+        display: block;
+        height: 90%;
         width: 90%;
-        /* border-radius: 2px; */
+        margin: auto;
+        border-radius: 10px;
     }
 
     .banner{

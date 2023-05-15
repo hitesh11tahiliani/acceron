@@ -158,7 +158,7 @@ export const ProductList = [
     price: 450,
   },
   {
-    name: "CH4 10W30",
+    name: "SM4 10W30",
     image:onel_10w30,
     capacity: "1 L",
     price: 450,

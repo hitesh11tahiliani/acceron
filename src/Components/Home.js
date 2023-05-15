@@ -1,9 +1,10 @@
 import React from 'react'
 import '../Styles/Home.css'
-import Banner from "../Assets/banner1.png"
 import User1 from "../Assets/USER1.png"
 import User3 from "../Assets/USER3.png"
-import tagline from "../Assets/acceron_branding.png"
+// import tagline from "../Assets/acceron_branding.png"
+import posterLatitude from "../Assets/posterLatitude.png"
+import posterLongitude from "../Assets/posterLongitude.png"
 import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
 import { Carousel } from 'react-responsive-carousel';
 import { FaAddressCard, FaClock, FaNetworkWired, FaCalendarTimes, FaWalking, FaQuoteRight, FaQuoteLeft} from "react-icons/fa";
@@ -21,11 +22,15 @@ function Home() {
       <div className='home_screen1'>
         <div className='landing_screen'>
           <div className='poster'>
-            <img className='banner' src={Banner} alt="Banner" />
+            <img className='banner' src={posterLatitude} alt="Banner" />
           </div>
 
-          <div className='company_tagline'>
-            <img className='image_tagline' src={tagline} alt="tagline" />
+          <div className='posterLongitude'>
+            <img className='posterLongitude' src={posterLongitude} alt="Banner" />
+          </div>
+
+          {/* <div className='company_tagline'>
+            <img className='image_tagline' src={tagline} alt="tagline" /> */}
 
             
             
@@ -43,7 +48,7 @@ function Home() {
               </Carousel>
             </div> */}
 
-          </div>
+          {/* </div> */}
         </div>
 
         <div className='reach'>
