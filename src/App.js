@@ -1,4 +1,4 @@
-import { HashRouter as Router, Route, Routes } from "react-router-dom";
+import { HashRouter as Router, Route, Routes, Navigate, Switch } from "react-router-dom";
 import Navbar from "./Components/Navbar"
 import Home from "./Components/Home"
 import Quotation from './Components/Quotation';
@@ -16,6 +16,7 @@ function App() {
         <Route path="/quotation" element={<Quotation />} />
         <Route path="/products" element={<Products />} />
         <Route path="/about" element={<About />} />
+        <Route path="*" element={<Navigate to="/" />} />
       </Routes>
       <Footer />
     </Router>
