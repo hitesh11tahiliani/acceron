@@ -1,10 +1,11 @@
 {
   "files": {
-    "main.css": "/static/css/main.08e551d0.css",
-    "main.js": "/static/js/main.24f0c4f4.js",
+    "main.css": "/static/css/main.88b389d8.css",
+    "main.js": "/static/js/main.9a900612.js",
+    "static/media/posterLatitude.png": "/static/media/posterLatitude.e687fe5b0c72e66425c3.png",
     "static/media/video2.mp4": "/static/media/video2.007bf8d826f81796398d.mp4",
     "static/media/video1.mp4": "/static/media/video1.dc58e6ded0f89b61afbb.mp4",
-    "static/media/banner1.png": "/static/media/banner1.c0dbff6bd29672a4b914.png",
+    "static/media/posterLongitude.png": "/static/media/posterLongitude.fc5c1b695962e10d6992.png",
     "static/media/1l_20w40.png": "/static/media/1l_20w40.50b1f8510f3c0f0db070.png",
     "static/media/director.png": "/static/media/director.e803fccb6a3ec3a46a28.png",
     "static/media/USER3.png": "/static/media/USER3.9674166bb30c8d5f752d.png",
@@ -40,17 +41,16 @@
     "static/media/sales9.png": "/static/media/sales9.82d7b5747c4d8897e667.png",
     "static/media/acceron_drum.png": "/static/media/acceron_drum.aed41692bc4088e44c52.png",
     "static/media/sales10.png": "/static/media/sales10.04f650868750e6f0bbc0.png",
-    "static/media/acceron_branding.png": "/static/media/acceron_branding.146e819dc3c014189708.png",
     "static/media/USER1.png": "/static/media/USER1.8758a64930ba17f2bffb.png",
     "static/media/lg_greace.png": "/static/media/lg_greace.7d9f7273b7ba0f0f25a6.png",
     "static/media/sm_greace.png": "/static/media/sm_greace.a3c5aaa90c2f7e64908b.png",
     "static/media/logo.png": "/static/media/logo.909e16ffec09bd7c4809.png",
     "index.html": "/index.html",
-    "main.08e551d0.css.map": "/static/css/main.08e551d0.css.map",
-    "main.24f0c4f4.js.map": "/static/js/main.24f0c4f4.js.map"
+    "main.88b389d8.css.map": "/static/css/main.88b389d8.css.map",
+    "main.9a900612.js.map": "/static/js/main.9a900612.js.map"
   },
   "entrypoints": [
-    "static/css/main.08e551d0.css",
-    "static/js/main.24f0c4f4.js"
+    "static/css/main.88b389d8.css",
+    "static/js/main.9a900612.js"
   ]
 }
